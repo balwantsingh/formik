@@ -10,10 +10,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mb-5">
-        <h1 className="font-black text-6xl mb-2">
+      <main className={styles.main}>
+        <h1 className="font-black text-6xl">
           Formik Forms
         </h1>
+
+        <p className={styles.description}>
+          Welcome to Formik forms</p>
       <hr />
         <YoutubeForm />
       </main>

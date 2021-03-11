@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mb-5">
+      <main className="">
         <h1 className="font-black text-6xl mb-2">
           Formik Forms
         </h1>
